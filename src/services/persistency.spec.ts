@@ -4,7 +4,7 @@ describe('Persistency', () => {
   afterEach(() => jest.clearAllMocks());
 
   it('should return undefined', () => {
-    //system under test
+    // System under test
     const sut = new Persistency();
     expect(sut.saveOrder()).toBeUndefined();
   });
